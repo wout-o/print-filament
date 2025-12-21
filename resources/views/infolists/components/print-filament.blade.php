@@ -1,4 +1,4 @@
-<x-dynamic-component :component="$getEntryWrapperView()">
+<x-dynamic-component :component="$getEntryWrapperView()" :entry="$entry">
     <div>
         <button
             id="print-button"
