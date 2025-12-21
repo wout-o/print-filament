@@ -2,9 +2,12 @@
 
 namespace PrintFilament\Print\Infolists\Components;
 
+use Closure;
 use Filament\Infolists\Components\Entry;
 
 class PrintComponent extends Entry
 {
     protected string $view = 'print::infolists.components.print-filament';
+
+    protected bool | Closure $isLabelHidden = true;
 }
