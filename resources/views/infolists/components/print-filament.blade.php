@@ -1,4 +1,4 @@
-<x-dynamic-component :component="$getEntryWrapperView()">
+<x-dynamic-component :component="$getEntryWrapperView()" :entry="$entry">
     <div>
         <button
             id="print-button"
@@ -24,7 +24,7 @@
                 color: #000 !important;
                 color: #000;
             }
-            .btn, #print-button, .fi-sidebar, .fi-breadcrumbs, .fi-topbar, .sr-only {
+            .fi-btn, #print-button, .fi-sidebar, .fi-breadcrumbs, .fi-topbar, .sr-only {
                 display: none;
             }
         }
