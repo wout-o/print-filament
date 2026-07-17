@@ -9,6 +9,11 @@
 
 The print package is a simple and efficient tool that allows users to quickly print the current webpage directly from their browser. This plugin enhances the convenience of printing online content by providing a one-click solution for generating printer-friendly versions of the pages you're viewing.
 
+## Requirements
+
+- PHP 8.2+
+- Filament v4 or v5
+
 ## Installation
 
 You can install the package via composer:
